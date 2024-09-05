@@ -23,10 +23,5 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm run build
       - run: pnpm run test
-      - run: |
-          pnpm run format:check || {
-            pnpm run format
-            git diff --exit-code
-          }
-      - run: pnpm run lint
+      - run: pnpm run check
       - run: pnpm exec publint
