@@ -56,7 +56,7 @@ importers:
         version: 0.2.11
       replace-in-file:
         specifier: ^8.1.0
-        version: 8.1.0
+        version: 8.2.0
       rollup:
         specifier: ^4.18.0
         version: 4.21.3
@@ -836,8 +836,8 @@ packages:
     resolution: {integrity: sha512-BLq/cCO9two+lBgiTYNqD6GdtK8s4NpaWrl6/rCO9w0TUS8oJl7cmToOZfRYllKTISY6nt1U7jQ53brmKqY6BA==}
     engines: {node: '>=4'}
 
-  replace-in-file@8.1.0:
-    resolution: {integrity: sha512-ySYfKDH6uFVC4Wt6DcZ2UX0UMCqE7xhWGVqje/15WFVwHxnel1gdZjV8nOW9Nms6h/yQE2MWyeIToeqFLZkp4w==}
+  replace-in-file@8.2.0:
+    resolution: {integrity: sha512-hMsQtdYHwWviQT5ZbNsgfu0WuCiNlcUSnnD+aHAL081kbU9dPkPocDaHlDvAHKydTWWpx1apfcEcmvIyQk3CpQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1752,7 +1752,7 @@ snapshots:
       normalize-package-data: 2.5.0
       path-type: 3.0.0
 
-  replace-in-file@8.1.0:
+  replace-in-file@8.2.0:
     dependencies:
       chalk: 5.3.0
       glob: 10.4.5
