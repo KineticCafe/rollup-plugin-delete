@@ -13,5 +13,6 @@ export default [
       },
     ],
     plugins: [autoExternal()],
+    external: ['node:path'],
   },
 ]
