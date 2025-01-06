@@ -66,7 +66,7 @@
     "@types/node": "^20.14.9",
     "@types/rollup-plugin-auto-external": "^2.0.5",
     "fs-extra": "^11.2.0",
-    "publint": "^0.2.11",
+    "publint": "^0.3.0",
     "replace-in-file": "^8.2.0",
     "rollup": "^4.24.0",
     "rollup-plugin-auto-external": "^2.0.0",
