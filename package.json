@@ -1,6 +1,6 @@
 {
   "name": "@kineticcafe/rollup-plugin-delete",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "type": "module",
   "contributors": [
     "Vlad Shcherbin <vlad.shcherbin@gmail.com>",

@@ -1,11 +1,16 @@
 # @kineticcafe/rollup-plugin-delete
 
-A Rollup plugin to delete files and folders during the build process. This is
-a fork of the excellent [`rollup-plugin-delete`][rpd]. The changes are:
+> [!important]
+>
+> This package is deprecated and will receive no further updates as it appears
+> that the [upstream][rpd] package has been updated in recent months.
+
+A Rollup plugin to delete files and folders during the build process. This is a
+fork of the excellent [`rollup-plugin-delete`][rpd]. The changes are:
 
 - Convert to Typescript. The previous version produces `TS2349` even though the
-  created type declaration file and the generated type declaration file are
-  more or less the same.
+  created type declaration file and the generated type declaration file are more
+  or less the same.
 
 - Removing [`del`][del], which depends on outdated versions of
   [`globby`][globby] and [`rimraf`][rimraf].
